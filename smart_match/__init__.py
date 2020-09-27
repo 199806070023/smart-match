@@ -40,6 +40,10 @@ def get_method(name=None, inner_method=None, verbose=False):
         if verbose:
             print('mode change to GeneralizedJaccard')
         return GeneralizedJaccard()
+    elif name=='ham':
+        if verbose:
+            print('mode change to HammingDistance')
+        return HammingDistance()
     elif name == 'ME':
         if verbose:
             print('mode change to MongeElkan')
