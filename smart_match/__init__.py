@@ -6,6 +6,7 @@ from .dice_similarity import *
 from .monge_elkan import *
 from .jaccard import *
 from .generalized_jaccard import *
+from .hamming_distance import *
 
 _method = Levenshtein()
 
